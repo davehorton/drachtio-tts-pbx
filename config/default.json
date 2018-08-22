@@ -1,0 +1,46 @@
+{
+  "servers": {
+    "drachtio": {
+      "host": "127.0.0.1",
+      "port": 9022,
+      "secret": "cymru"
+    },
+    "freeswitch": {
+      "host": "127.0.0.1",
+      "port": 8021,
+      "secret": "ClueCon"
+    }
+  },
+  "log": {
+    "level": "debug"
+  },
+  "prompts-dir": "/tmp/prompts",
+  "ivr": {
+    "default": {
+      "entry": "main",
+      "voice": {
+        "languageCode": "en-US",
+        "name": "en-US-Wavenet-C",
+        "ssmlGender": "FEMALE"
+      }
+    },
+    "did": {
+      "8005551212": {
+        "entry": "alt-1",
+        "voice": {
+          "languageCode": "en-gb",
+          "name": "en-GB-Standard-A",
+          "ssmlGender" : "FEMALE"    
+        }
+      }
+    }
+  },
+  "groups": {
+    "ussales@foo.bar": [
+      "sip:joe@foo.bar", "sip:jane@foo.bar"
+    ],
+    "eusales@foo.bar": [
+      "sip:john@foo.bar", "sip:nancy@foo.bar"
+    ]
+  }
+}
