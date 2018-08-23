@@ -11,6 +11,10 @@ const promptsDir = config.get('prompts-dir');
 const synth = require('./lib/synth-prompt')(logger, promptsDir, keyfile);
 const inviteHandler = require('./lib/invite')(logger, synth);
 
+process.on('unhandledRejection', (reason, p) => {
+  logger.error(`Unhandled Rejection at: Promise ${p}, reason: ${reason}`);
+});
+
 function connectMS() {
   return mrf.connect({
     address: config.get('servers.freeswitch.host'),

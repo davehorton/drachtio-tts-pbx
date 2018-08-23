@@ -28,6 +28,7 @@
     "drachtio-fsmrf": "^1.1.4",
     "drachtio-srf": "^4.3.5",
     "fs-extra": "^7.0.0",
+    "moment": "^2.22.2",
     "pino": "^5.2.0",
     "sha256": "^0.2.0"
   }

@@ -15,32 +15,35 @@
     "level": "debug"
   },
   "prompts-dir": "/tmp/prompts",
-  "ivr": {
-    "default": {
-      "entry": "main",
-      "voice": {
-        "languageCode": "en-US",
-        "name": "en-US-Wavenet-C",
-        "ssmlGender": "FEMALE"
-      }
+  "prompts": {
+    "main": "Welcome to Voxbone, press 1 to learn more about our services. Press 2 if you're an existing customer. Press 3 if you have any other questions or enter the 4-digit extension to connect to one of our colleagues.",
+    "invalid": "That is not a valid entry.",
+    "predial": "This call may be recorded and monitored for quality assurance purposes."
+  },
+  "voices": {
+    "us": {
+      "languageCode": "en-US",
+      "name": "en-US-Wavenet-C",
+      "ssmlGender": "FEMALE"      
     },
-    "did": {
-      "8005551212": {
-        "entry": "alt-1",
-        "voice": {
-          "languageCode": "en-gb",
-          "name": "en-GB-Standard-A",
-          "ssmlGender" : "FEMALE"    
-        }
-      }
+    "uk": {
+      "languageCode": "en-GB",
+      "name": "en-GB-Wavenet-A",
+      "ssmlGender": "FEMALE"            
     }
   },
+  "ivr": {
+    "1": "sales",
+    "2": "am",
+    "3": "support"
+  },
   "groups": {
-    "ussales@foo.bar": [
-      "sip:joe@foo.bar", "sip:jane@foo.bar"
-    ],
-    "eusales@foo.bar": [
-      "sip:john@foo.bar", "sip:nancy@foo.bar"
-    ]
+    "sales-us": ["sip:kmabee@sipvox1.voxbone.com","sip:ebascunan@sipvox1.voxbone.com"],
+    "sales-be": ["sip:ido@sipvox1.voxbone.com"],
+    "am-uk": ["mservice@sipvox1.voxbone.com","salex@sipvox1.voxbone.com", 
+      "jbirley@sipvox1.voxbone.com"],
+    "support-us": ["ksweeney@sipvox1.voxbone.com"],
+    "support-uk": ["acortez@sipvox1.voxbone.com"],
+    "support-be": ["npacheco@sipvox1.voxbone.com"]
   }
 }
