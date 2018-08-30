@@ -18,7 +18,11 @@
   "prompts": {
     "main": "Welcome to Voxbone, press 1 to learn more about our services. Press 2 if you're an existing customer. Press 3 if you have any other questions or enter the 4-digit extension to connect to one of our colleagues.",
     "invalid": "That is not a valid entry.",
-    "predial": "This call may be recorded and monitored for quality assurance purposes."
+    "predial": "This call may be recorded and monitored for quality assurance purposes.",
+    "voicemail": {
+      "folder": "/tmp",
+      "greeting": "We’re unable to take your call right now, please leave a message and we’ll get back to you as soon as we can."
+    }
   },
   "voices": {
     "us": {
@@ -37,13 +41,116 @@
     "2": "am",
     "3": "support"
   },
+  "people": {
+    "kmabee": {
+      "mobile": "+15129938773",
+      "strategy": "sip"
+    },
+    "tollivier": {
+      "strategy": "sip"
+    },
+    "rhennessy": {
+      "strategy": "sip"      
+    },
+    "gstone": {
+      "strategy": "sip"      
+    },
+    "ido": {
+      "strategy": "sip"      
+    },
+    "kmorris": {
+      "strategy": "sip"            
+    },
+    "nbroek": {
+      "strategy": "sip"                  
+    },
+    "ebascunan": {
+      "strategy": "sip"                        
+    },
+    "acortez": {
+      "strategy": "sip"                              
+    },
+    "npacheco": {
+      "strategy": "sip"      
+    },
+    "jbirley": {
+      "mobile": "+447904794789",
+      "strategy": "sip"      
+    },
+    "mservice": {
+      "strategy": "sip"      
+    },
+    "salex": {
+      "strategy": "sip"      
+    },
+    "oprelorentzos": {
+      "mobile": "+447903363539",
+      "strategy": "sip"      
+    },
+    "ksweeney": {
+      "strategy": "sip"      
+    },
+    "jzieger": {
+      "mobile": "+15126081824",
+      "strategy": "sip"      
+    },
+    "jalvarez": {
+      "mobile": "+15128088048",
+      "strategy": "sip"      
+    },
+    "mjamili": {
+      "mobile": "+14157553901",
+      "strategy": "sip"      
+    },
+    "sturkington": {
+      "mobile": "+442036956524",
+      "strategy": "sip"            
+    }
+  },
   "groups": {
-    "sales-us": ["sip:kmabee@sipvox1.voxbone.com","sip:ebascunan@sipvox1.voxbone.com"],
-    "sales-be": ["sip:ido@sipvox1.voxbone.com"],
-    "am-uk": ["mservice@sipvox1.voxbone.com","salex@sipvox1.voxbone.com", 
-      "jbirley@sipvox1.voxbone.com"],
-    "support-us": ["ksweeney@sipvox1.voxbone.com"],
-    "support-uk": ["acortez@sipvox1.voxbone.com"],
-    "support-be": ["npacheco@sipvox1.voxbone.com"]
+    "am-us": [
+      {
+        "strategy": "simring",
+        "members": ["ksweeney", "jzieger", "kmabee", "jalvarez"]
+      },
+      {
+        "strategy": "simring",
+        "members": ["mjamili"]
+      }
+    ],
+    "am-eu": [
+      {
+        "strategy": "simring",
+        "members": ["acortez","npacheco","jbirley","mservice"]
+      },
+      {
+        "strategy": "simring",
+        "members": ["salex"]
+      },
+      {
+        "strategy": "simring",
+        "members": ["oprelorentzos"]
+      }
+    ],
+    "sales-us": [
+      {
+        "strategy": "hunt",
+        "members": ["kmorris","nbroek","ebascunan"]
+      }
+    ],
+    "sales-eu": [
+      {
+        "strategy": "hunt",
+        "members": ["tollivier","rhennessy","gstone","ido"]
+      }
+    ]
+  },
+  "outbound": {
+    "proxy": "sip:81.201.82.250",
+    "domain": "voxout.voxbone.com",
+    "auth": {
+      "username": "workshop_dhorton",
+      "password": "hadej6cp2lznv5o8ysm9"
+    }
   }
 }

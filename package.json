@@ -25,7 +25,7 @@
     "@google-cloud/text-to-speech": "^0.3.0",
     "async": "^2.6.1",
     "config": "^2.0.1",
-    "drachtio-fsmrf": "^1.1.4",
+    "drachtio-fsmrf": "^1.1.5",
     "drachtio-srf": "^4.3.5",
     "fs-extra": "^7.0.0",
     "moment": "^2.22.2",
