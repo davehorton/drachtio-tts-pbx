@@ -42,6 +42,12 @@
     "3": "support"
   },
   "people": {
+    "dhorton": {
+      "strategy": "sip"
+    },
+    "ffirat": {
+      "strategy": "sip"
+    },
     "kmabee": {
       "mobile": "+15129938773",
       "strategy": "sip"
@@ -145,12 +151,15 @@
       }
     ]
   },
+  "analytics": {
+    "server": "sip.voxrec.io",
+    "enabled": false
+  },
+  "auth": {
+    "username": "voxbonemarketing",
+    "password": "dkos9vjbg1taeum4p87c"
+  },
   "outbound": {
-    "proxy": "sip:81.201.82.250",
-    "domain": "voxout.voxbone.com",
-    "auth": {
-      "username": "workshop_dhorton",
-      "password": "hadej6cp2lznv5o8ysm9"
-    }
+    "domain": "be.voxout.voxbone.com"
   }
 }
