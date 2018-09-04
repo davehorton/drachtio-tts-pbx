@@ -39,14 +39,22 @@
   "ivr": {
     "1": "sales",
     "2": "am",
-    "3": "support"
+    "3": "support",
+    "4": "test"
   },
   "people": {
+    "test": {
+      "strategy": "sip",
+      "mobile": "+16178738000",
+      "sip": "sip:dhorton@sipvox1.voxbone.com"
+    },
     "dhorton": {
-      "strategy": "sip"
+      "strategy": "all",
+      "mobile": "+3228080000"
     },
     "ffirat": {
-      "strategy": "sip"
+      "strategy": "all",
+      "mobile": "+32493400606"
     },
     "kmabee": {
       "mobile": "+15129938773",
@@ -114,6 +122,12 @@
     }
   },
   "groups": {
+    "test": [
+      {
+        "strategy": "hunt",
+        "members": ["test", "dhorton"]
+      }
+    ],
     "am-us": [
       {
         "strategy": "simring",
@@ -160,6 +174,13 @@
     "password": "dkos9vjbg1taeum4p87c"
   },
   "outbound": {
-    "domain": "be.voxout.voxbone.com"
+    "domain": "voxout.voxbone.com",
+    "proxy": "sip:81.201.82.250",
+    "caller-id": "3228082432"
+  },
+  "caller-id": {
+    "1": "15128298700",
+    "44": "442039668000",
+    "32": "3228082432"
   }
 }
