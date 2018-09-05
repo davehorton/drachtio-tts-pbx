@@ -61,10 +61,12 @@
       "strategy": "sip"
     },
     "tollivier": {
-      "strategy": "sip"
+      "mobile":"+447948079912",
+      "strategy": "all"
     },
     "rhennessy": {
-      "strategy": "sip"      
+      "mobile":"+447946264727",
+      "strategy": "mobile"
     },
     "gstone": {
       "strategy": "sip"      
@@ -89,17 +91,17 @@
     },
     "jbirley": {
       "mobile": "+447904794789",
-      "strategy": "sip"      
+      "strategy": "all"
     },
     "mservice": {
-      "strategy": "sip"      
+      "strategy": "sip"
     },
     "salex": {
-      "strategy": "sip"      
+      "strategy": "sip"
     },
     "oprelorentzos": {
       "mobile": "+447903363539",
-      "strategy": "sip"      
+      "strategy": "all"
     },
     "ksweeney": {
       "strategy": "sip"      
@@ -115,10 +117,6 @@
     "mjamili": {
       "mobile": "+14157553901",
       "strategy": "sip"      
-    },
-    "sturkington": {
-      "mobile": "+442036956524",
-      "strategy": "sip"            
     }
   },
   "groups": {
