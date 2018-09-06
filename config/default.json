@@ -50,7 +50,8 @@
     },
     "dhorton": {
       "strategy": "all",
-      "mobile": "+3228080000"
+      "mobile": "+3228080000",
+      "active": false
     },
     "ffirat": {
       "strategy": "all",
@@ -180,5 +181,12 @@
     "1": "15128298700",
     "44": "442039668000",
     "32": "3228082432"
+  },
+  "voicemail": {
+    "apiUrl": "https://metadata-api-v2.herokuapp.com/v2/media",
+    "headers": {
+      "x-restrict-access":  "Vox123!",
+      "x-customer": "epelliccioni"
+    }
   }
 }
