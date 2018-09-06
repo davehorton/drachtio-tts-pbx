@@ -186,7 +186,7 @@
     "apiUrl": "https://metadata-api-v2.herokuapp.com/v2/media",
     "headers": {
       "x-restrict-access":  "Vox123!",
-      "x-customer": "epelliccioni"
+      "x-customer": "voxbonemarketing"
     }
   }
 }
