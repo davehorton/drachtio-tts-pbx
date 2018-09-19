@@ -59,7 +59,7 @@
     },
     "kmabee": {
       "mobile": "+15129938773",
-      "strategy": "sip"
+      "strategy": "all"
     },
     "tollivier": {
       "mobile":"+447948079912",
@@ -93,7 +93,7 @@
     },
     "jbirley": {
       "mobile": "+447904794789",
-      "strategy": "sip"
+      "strategy": "all"
     },
     "mservice": {
       "strategy": "sip"
