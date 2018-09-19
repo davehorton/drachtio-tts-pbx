@@ -63,7 +63,7 @@
     },
     "tollivier": {
       "mobile":"+447948079912",
-      "strategy": "all"
+      "strategy": "sip"
     },
     "rhennessy": {
       "mobile":"+447946264727",
@@ -92,7 +92,7 @@
     },
     "jbirley": {
       "mobile": "+447904794789",
-      "strategy": "all"
+      "strategy": "sip"
     },
     "mservice": {
       "strategy": "sip"
@@ -102,7 +102,7 @@
     },
     "oprelorentzos": {
       "mobile": "+447903363539",
-      "strategy": "all"
+      "strategy": "sip"
     },
     "ksweeney": {
       "strategy": "sip"      
