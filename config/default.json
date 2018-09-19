@@ -103,7 +103,7 @@
     },
     "oprelorentzos": {
       "mobile": "+447903363539",
-      "strategy": "sip"
+      "strategy": "all"
     },
     "ksweeney": {
       "strategy": "sip"      
@@ -118,7 +118,7 @@
     },
     "mjamili": {
       "mobile": "+14157553901",
-      "strategy": "sip"      
+      "strategy": "all"      
     }
   },
   "groups": {
