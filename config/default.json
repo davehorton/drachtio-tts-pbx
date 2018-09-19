@@ -76,7 +76,8 @@
       "strategy": "sip"      
     },
     "kmorris": {
-      "strategy": "sip"            
+      "mobile" : "+15129872447",
+      "strategy": "all"            
     },
     "nbroek": {
       "strategy": "sip"                  
@@ -130,11 +131,7 @@
     "am-us": [
       {
         "strategy": "simring",
-        "members": ["ksweeney", "kmabee", "jalvarez"]
-      },
-      {
-        "strategy": "simring",
-        "members": ["mjamili"]
+        "members": ["mjamili", "kmabee", "jalvarez"]
       }
     ],
     "am-eu": [
