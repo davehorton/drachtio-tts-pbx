@@ -130,7 +130,7 @@
     "am-us": [
       {
         "strategy": "simring",
-        "members": ["ksweeney", "jzieger", "kmabee", "jalvarez"]
+        "members": ["ksweeney", "kmabee", "jalvarez"]
       },
       {
         "strategy": "simring",
