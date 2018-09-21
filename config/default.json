@@ -63,14 +63,15 @@
     },
     "tollivier": {
       "mobile":"+447948079912",
-      "strategy": "sip"
+      "strategy": "all"
     },
     "rhennessy": {
       "mobile":"+447946264727",
       "strategy": "mobile"
     },
     "gstone": {
-      "strategy": "sip"      
+      "strategy": "all",
+      "mobile": "+447432508940"     
     },
     "ido": {
       "strategy": "sip"      
@@ -91,32 +92,33 @@
       "strategy": "sip"                              
     },
     "npacheco": {
-      "strategy": "sip"      
+      "strategy": "sip",
+      "active" : false     
     },
     "jbirley": {
       "mobile": "+447904794789",
       "strategy": "all"
     },
     "mservice": {
-      "strategy": "sip"
+      "strategy": "all",
+      "mobile": "+447377814684"
     },
     "salex": {
-      "strategy": "sip"
+      "strategy": "all",
+      "mobile" : "+447403779720"
     },
     "oprelorentzos": {
       "mobile": "+447903363539",
       "strategy": "all"
     },
     "ksweeney": {
-      "strategy": "sip"      
-    },
-    "jzieger": {
-      "mobile": "+15126081824",
-      "strategy": "sip"      
+      "active": false,
+      "mobile": "+19493227881",
+      "strategy": "mobile"      
     },
     "jalvarez": {
       "mobile": "+15128088048",
-      "strategy": "sip"      
+      "strategy": "all"      
     },
     "mjamili": {
       "mobile": "+14157553901",
@@ -133,7 +135,7 @@
     "am-us": [
       {
         "strategy": "simring",
-        "members": ["mjamili", "kmabee", "jalvarez"]
+        "members": ["mjamili", "kmabee", "jalvarez", "ksweeney"]
       }
     ],
     "am-eu": [
