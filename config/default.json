@@ -16,7 +16,7 @@
   },
   "prompts-dir": "/tmp/prompts",
   "prompts": {
-    "main": "<speak><break time=\"750ms\"/>Welcome to Voxbone. <break time=\"500ms\"/> Press 1 to learn more about our services. Press 2 if you're an existing customer. Press 3 if you have any other questions or enter the 4-digit extension to connect to one of our colleagues.</speak>",
+    "main": "<speak><break time=\"750ms\"/>Welcome to Voxbone. <break time=\"500ms\"/> Press 1 to learn more about our services. Press 2 if you're an existing customer. Press 3 if you have any other questions.</speak>",
     "invalid": "That is not a valid entry.",
     "predial": "This call may be recorded and monitored for quality assurance purposes.",
     "voicemail": {
