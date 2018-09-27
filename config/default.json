@@ -63,14 +63,14 @@
     },
     "tollivier": {
       "mobile":"+447948079912",
-      "strategy": "mobile"
+      "strategy": "all"
     },
     "rhennessy": {
       "mobile":"+447946264727",
-      "strategy": "mobile"
+      "strategy": "all"
     },
     "gstone": {
-      "strategy": "mobile",
+      "strategy": "all",
       "mobile": "+447432508940"     
     },
     "ido": {
@@ -89,7 +89,6 @@
       "strategy": "sip"                        
     },
     "acortez": {
-      "active":false,
       "strategy": "sip"                              
     },
     "npacheco": {
@@ -98,19 +97,19 @@
     },
     "jbirley": {
       "mobile": "+447904794789",
-      "strategy": "mobile"
+      "strategy": "all"
     },
     "mservice": {
-      "strategy": "mobile",
+      "strategy": "all",
       "mobile": "+447377814684"
     },
     "salex": {
-      "strategy": "mobile",
+      "strategy": "all",
       "mobile" : "+447403779720"
     },
     "oprelorentzos": {
       "mobile": "+447903363539",
-      "strategy": "mobile"
+      "strategy": "all"
     },
     "ksweeney": {
       "active": false,
